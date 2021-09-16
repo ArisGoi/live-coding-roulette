@@ -1,0 +1,134 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --c-main: #f9ae40;
+    --c-second: #de2f6d;
+
+    --f-name: 'Zen Tokyo Zoo', cursive;
+    --f-button: 
+}
+
+/* common */
+body{
+    background-color: #222;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 60px;
+}
+
+.container{
+    max-width: 1400px;
+    text-align: center;
+}
+
+/* LOGO ASSEMBLED */
+.logo-assembled{
+    height: 450px;
+    position: relative;
+}
+.logo-assembled #lg-basis{
+    height: 126%;
+    position: absolute;
+    top: -13%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.logo-assembled #lg-centerStage{
+    height: 58%;
+    position: absolute;
+    top: 19%;
+    left: 50%;
+    transform: translateX(-50%) rotate(0deg);
+
+    animation: rotation 2s infinite ease-in-out;
+}
+
+@keyframes rotation {
+    from {
+      transform: translateX(-50%) rotate(0deg);
+    }
+    to {
+      transform: translateX(-50%) rotate(359deg);
+    }
+}
+
+
+/* Name */
+h2{
+    margin: 120px 0;
+    color: var(--c-main);
+    font-size: 65px;
+    font-family: var(--f-name);
+    font-weight: 400;
+    text-transform: uppercase;
+    filter: drop-shadow(0px 0px 8px var(--c-main));
+}
+
+/* button */
+button{
+    border: 3px solid var(--c-second);
+    background-color: transparent;
+    border-radius: 40px;
+    padding: 30px 50px;
+    font-size: 35px;
+    color: var(--c-second);
+}
+button:hover{
+    filter: drop-shadow(0px 0px 40px var(--c-second));
+}
+
+button:active{
+    border: 3px solid var(--c-main);
+    color: var(--c-main);
+    filter: drop-shadow(0px 0px 40px var(--c-main));
+}
+
+
+/* blink animation */
+h2 span{
+    animation: blink linear infinite 3s;
+}
+
+h2 span:nth-of-type(2){
+    animation: blink linear infinite 4s;
+}
+
+  @keyframes blink {
+    78% {
+      color: inherit;
+      text-shadow: inherit;
+    }
+    79%{
+       color: #333;
+    }
+    80% {
+      
+      text-shadow: none;
+    }
+    81% {
+      color: inherit;
+      text-shadow: inherit;
+    }
+    82% {
+      color: #333;
+      text-shadow: none;
+    }
+    83% {
+      color: inherit;
+      text-shadow: inherit;
+    }
+    92% {
+      color: #333;
+      text-shadow: none;
+    }
+    92.5% {
+      color: inherit;
+      text-shadow: inherit;
+    }
+  }
