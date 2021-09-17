@@ -2,22 +2,139 @@
 // Array classe e studenti
 const classe40 = [
     {
-        "nome": "Studente",
-        "cognome": "uno"
+        "nome": "Aris",
+        "cognome": "Goi"
     },
     {
-        "nome": "Studente",
-        "cognome": "due"
+        "nome": "Michele",
+        "cognome": "Amoruso"
     },
     {
-        "nome": "Studente",
-        "cognome": "tre"
+        "nome": "Simone",
+        "cognome": "Morieri"
     },
     {
-        "nome": "Studente",
-        "cognome": "quattro"
+        "nome": "Dario",
+        "cognome": "D'Agnelli"
+    },
+    {
+        "nome": "Massimigliano",
+        "cognome": "Pignataro"
+    },
+    {
+        "nome": "Alessandro",
+        "cognome": "Amara"
+    },
+    {
+        "nome": "Valentina",
+        "cognome": "Cantarelli"
+    },
+    {
+        "nome": "Gianluca",
+        "cognome": "Napoletano"
+    },
+    {
+        "nome": "Mario",
+        "cognome": "Fantasia"
+    },
+    {
+        "nome": "Marco",
+        "cognome": "Porcaro"
+    },
+    {
+        "nome": "Hemil",
+        "cognome": "Zanatta"
+    },
+    {
+        "nome": "Elena",
+        "cognome": "Catani"
+    },
+    {
+        "nome": "Giordano Francesco",
+        "cognome": "Rinaldi"
+    },
+    {
+        "nome": "Francesco",
+        "cognome": "Laurora"
+    },
+    {
+        "nome": "Nicola",
+        "cognome": "Felice"
+    },
+    {
+        "nome": "Pasquale",
+        "cognome": "Petito"
+    },
+    {
+        "nome": "Mauro",
+        "cognome": "Tomasoni"
+    },
+    {
+        "nome": "Ottavio",
+        "cognome": "Giudici"
+    },
+    {
+        "nome": "Marika",
+        "cognome": "Klimenko"
+    },
+    {
+        "nome": "Elia",
+        "cognome": "Raguso"
+    },
+    {
+        "nome": "Alessandro",
+        "cognome": "Nessi"
+    },
+    {
+        "nome": "Ilario",
+        "cognome": "Cocco"
+    },
+    {
+        "nome": "Davide",
+        "cognome": "Bajo"
+    },
+    {
+        "nome": "Manfredi",
+        "cognome": "Piraino"
+    },
+    {
+        "nome": "Andrea",
+        "cognome": "Geraci"
+    },
+    {
+        "nome": "Federico",
+        "cognome": "Lovaglio"
+    },
+    {
+        "nome": "Emanuela",
+        "cognome": "Mocci"
+    },
+    {
+        "nome": "Simone",
+        "cognome": "Severini"
+    },
+    {
+        "nome": "Leonardo",
+        "cognome": "Barone"
+    },
+    {
+        "nome": "Lorenzo",
+        "cognome": "Orrù"
+    },
+    {
+        "nome": "Andrea",
+        "cognome": "Fiorentino"
+    },
+    {
+        "nome": "Angelo",
+        "cognome": "Bennici"
+    },
+    {
+        "nome": "Davide",
+        "cognome": "Bernardini"
     },
 ];
+console.log(classe40);
 
 let winner = document.getElementById('winner');
 
